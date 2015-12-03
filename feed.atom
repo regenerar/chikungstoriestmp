@@ -1,0 +1,32 @@
+---
+layout: 
+---
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+  <title>Chi Kung  Stories</title>
+  <link href="http://chikungstories.com"/>
+  <link type="application/atom+xml" rel="self" href="http://chikungstories.com/feed.atom"/>
+  <updated>{{ site.time | date_to_xmlschema }}</updated>
+  <id>http://chikungstories.com/</id>
+  <author>
+    <name>Lourenco de Azevedo</name>
+    <email>lourenco.azevedo@devagar.org</email>
+  </author>
+
+  {% for post in site.posts %}
+  <entry>
+    <id>http://chikungstories.com{{ post.id }}</id>
+    <link type="text/html" rel="alternate" href="http://chikungstories.com{{ post.url }}"/>
+    <title>{{ post.title }}</title>
+    <published>{{ post.date | date_to_xmlschema }}</published>
+    <updated>{{ post.date | date_to_xmlschema }}</updated>
+    <author>
+      <name>"Lourenco de Azevedo"</name>
+      <uri>http://chikungstories.com</uri>
+    </author>
+    <content type="html">{{ post.content | xml_escape }}</content>
+  </entry>
+  {% endfor %}
+ 
+</feed>

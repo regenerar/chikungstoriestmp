@@ -1,0 +1,14 @@
+source:      .
+destination: ./_site
+plugins:     ./_plugins
+posts: 	     ./_posts
+layouts:     ./_layouts
+include:     ['.htaccess']
+exclude:     []
+markdown: kramdown
+name: Chi Kung Stories
+description: Ideas and insights about daily practice
+url: http://chikungstories.com
+safe: true
+lsi: false
+highlighter: 'pygments'
