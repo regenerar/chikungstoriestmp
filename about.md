@@ -16,6 +16,6 @@ I believe that more important then all the theory that can be present in a class
 
 I live and teach in Lisbon, Portugal.
 
-This blog contains original and translated texts from a blog I host in Portuguese since 2008 &#8211; [Zhan Zhuang Chi Kung &#8211; A Arte do Cultivo da Quietude ][http://lourencoazevedo.com]
+This blog contains original and translated texts from a blog I host in Portuguese since 2008 &#8211; [Zhan Zhuang Chi Kung &#8211; A Arte do Cultivo da Quietude ](http://lourencoazevedo.com)
 
 
