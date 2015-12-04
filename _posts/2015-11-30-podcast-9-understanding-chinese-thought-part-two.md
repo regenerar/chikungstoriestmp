@@ -3,7 +3,7 @@ title: "Podcast #9 - Understanding Chinese Thought &#8211; Part Two"
 author: Lourenco de Azevedo
 layout: post
 file: "http://epodcasts.s3.amazonaws.com/chikungstories9.mp3"
-image: 
+image: "2015-11-30.jpg"
 categories:
   - Chi Kung
   - Tradition
@@ -15,5 +15,4 @@ In this podcast:
 The concept of being in the process.
 
 Enjoy your practice.
-
 
