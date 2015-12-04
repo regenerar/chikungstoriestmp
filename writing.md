@@ -2,7 +2,7 @@
 layout: default
 title: writing 
 ---
-## Writing
+## Stories
 
 <section id="archive">
                     <h3>2015</h3>

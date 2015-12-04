@@ -1,6 +1,57 @@
+  /* fonts */
+
+  /*Montserrat*/
+
+  @font-face {
+    font-family: "Montserrat";
+    src: url("/fonts/Montserrat-Regular.otf");
+    font-weight: 400;
+  }
+  @font-face {
+    font-family: "Montserrat";
+    src: url("/fonts/Montserrat-Bold.otf");
+    font-weight: 700;
+  }
+
+  /* Open Sans */
+
+  @font-face {
+    font-family: "Open Sans";
+    src: url("/fonts/OpenSans-Light.ttf");
+    font-weight: 300;
+  }
+  @font-face {
+    font-family: "Open Sans";
+    src: url("/fonts/OpenSans-Regular.ttf");
+    font-weight: 400;
+  }
+  @font-face {
+    font-family: "Open Sans";
+    src: url("/fonts/OpenSans-Bold.ttf");
+    font-weight: 700;
+  }
+  @font-face {
+    font-family: "Open Sans";
+    src: url("/fonts/OpenSans-LightItalic.ttf");
+    font-weight: 300;
+    font-style: italic;
+  }
+  @font-face {
+    font-family: "Open Sans";
+    src: url("/fonts/OpenSans-Italic.ttf");
+    font-weight: 400;
+    font-style: italic;
+  }
+  @font-face {
+    font-family: "Open Sans";
+    src: url("/fonts/OpenSans-BoldItalic.ttf");
+    font-weight: 700;
+    font-style: italic;
+  }
+
       body {
         color: #444444;
-        font-family: Helvetica Neue, Helvetica, serif;
+        font-family: "Open Sans", Arial, serif;
         font-size: 100%;
         line-height: 1.5;
         font-weight: 400;
@@ -52,8 +103,8 @@
       Header 
       */
 
-      p.p1 {margin: 30.0px 0.0px 0.0px 0.0px; font: 64.0px 'Helvetica'; color: #444444}
-      p.p2 {margin: 5.0px 0.0px 0.0px 0.0px; font: 20.0px 'Helvetica'; color: #444444}
+      p.p1 {margin: 30.0px 0.0px 0.0px 0.0px; font: 64.0px "Montserrat"; color: #444444}
+      p.p2 {margin: 5.0px 0.0px 0.0px 0.0px; font: 20.0px "Montserrat"; color: #444444}
       span.s1 {letter-spacing: 0.0px}
             
       a {
@@ -108,7 +159,7 @@
   padding-right: 15px;
 }
 .navbar a {
-  font-family: Helvetica, sans-serif, Verdana;
+  font-family: "Open Sans", Arial, sans-serif;
   color: #09b;
   font-size: 18px;
   margin-bottom: 0;

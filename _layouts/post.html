@@ -1,10 +1,24 @@
 ---
 layout: default
 ---
-<article>
-      <h2>{{ page.title }}</h2>
-      {{ content }}
- </article>
+<header>
+	<h2>{{ page.title }}</h2>
+</header>
+
+<article> 
+ {% if page.image %}
+	<p align="center"><img src="{{ base.url }}{{ page.image }}" style="border: 1px solid #ccc; padding: 5px; width: 100%"></p>
+ {% endif %}
+    {{ content }}
+</article>
+
+{% if page.file %}
+	<audio src="{{ page.file }}" preload="none" controls="controls" type="audio/mp3">
+	  Your browser doesn't support the <code>audio</code> element.
+	</audio>
+	<br>
+	<a href="{{ page.file }}" class="button">Download podcast</a>
+{% endif %}
 
 
 
