@@ -25,18 +25,7 @@ layout:
       <name>"Lourenco de Azevedo"</name>
       <uri>http://chikungstories.com</uri>
     </author>
-
     <content type="html">{{ post.content | xml_escape }}</content>
-
-    {% if post.image %}
-        <image>
-            content type="html">
-            <link>{{ base.url }}{{ post.image }}</link>
-            <url>{{ base.url }}{{ post.image }}</url>
-            </content>
-        </image>
-    
-      {% endif %}
   </entry>
   {% endfor %}
  
