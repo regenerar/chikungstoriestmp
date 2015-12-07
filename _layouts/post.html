@@ -12,6 +12,13 @@ layout: default
     {{ content }}
 </article>
 
+{% if page.video %}
+<iframe src="https://player.vimeo.com/video/{{ page.video }}" width="720" height="406" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+<p><a href="{{ page.video-url }}">Chi kung Stories Home Practice Video</a> from <a href="https://vimeo.com/user44749248">Lourenco de Azevedo</a></p>
+
+{% endif %}
+
 {% if page.file %}
 	<audio src="{{ page.file }}" preload="none" controls="controls" type="audio/mp3">
 	  Your browser doesn't support the <code>audio</code> element.

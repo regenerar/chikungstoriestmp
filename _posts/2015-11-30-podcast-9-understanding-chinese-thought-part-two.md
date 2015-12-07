@@ -1,5 +1,5 @@
 ---
-title: "Podcast #9 - Understanding Chinese Thought &#8211; Part Two"
+title: "Podcast #9 - Understanding Chinese Thought - Part Two"
 author: Lourenco de Azevedo
 layout: post
 file: "http://epodcasts.s3.amazonaws.com/chikungstories9.mp3"
