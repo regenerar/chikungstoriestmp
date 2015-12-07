@@ -4,13 +4,29 @@
   <title>Chi Kung  Stories</title>
   <link href="http://chikungstories.com"/>
   <link type="application/atom+xml" rel="self" href="http://chikungstories.com/feed.atom"/>
-  <updated>2015-12-07T15:36:45+00:00</updated>
+  <updated>2015-12-07T16:20:02+00:00</updated>
   <id>http://chikungstories.com/</id>
   <author>
     <name>Lourenco de Azevedo</name>
     <email>lourenco.azevedo@devagar.org</email>
   </author>
 
+  
+  <entry>
+    <id>http://chikungstories.com/chi%20kung/sky/2015/12/07/the-sky</id>
+    <link type="text/html" rel="alternate" href="http://chikungstories.com/chi%20kung/sky/2015/12/07/the-sky.html"/>
+    <title>Podcast #10 - How many layers?</title>
+    <published>2015-12-07T00:00:00+00:00</published>
+    <updated>2015-12-07T00:00:00+00:00</updated>
+    <author>
+      <name>"Lourenco de Azevedo"</name>
+      <uri>http://chikungstories.com</uri>
+    </author>
+    <content type="html">&lt;p&gt;How many layers can you have before you reach the vastness of the sky. And how this can be a challenge if you live in the city.&lt;/p&gt;
+
+&lt;p&gt;Enjoy your practice and happy sky gazing.&lt;/p&gt;
+</content>
+  </entry>
   
   <entry>
     <id>http://chikungstories.com/chi%20kung/tradition/2015/11/30/podcast-9-understanding-chinese-thought-part-two</id>
