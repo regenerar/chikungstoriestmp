@@ -4,7 +4,7 @@
   <title>Chi Kung  Stories</title>
   <link href="http://chikungstories.com"/>
   <link type="application/atom+xml" rel="self" href="http://chikungstories.com/feed.atom"/>
-  <updated>2015-12-07T16:57:05+00:00</updated>
+  <updated>2015-12-07T16:58:53+00:00</updated>
   <id>http://chikungstories.com/</id>
   <author>
     <name>Lourenco de Azevedo</name>
@@ -24,8 +24,10 @@
     </author>
     
         <image>
+            content type="html">
             <link>/images/2015-12-07.jpg</link>
             <url>/images/2015-12-07.jpg</url>
+            </content>
         </image>
     
       
@@ -47,8 +49,10 @@
     </author>
     
         <image>
+            content type="html">
             <link>/images/2015-11-30.jpg</link>
             <url>/images/2015-11-30.jpg</url>
+            </content>
         </image>
     
       
@@ -95,8 +99,10 @@
     </author>
     
         <image>
+            content type="html">
             <link>/images/2015-11-13.jpg</link>
             <url>/images/2015-11-13.jpg</url>
+            </content>
         </image>
     
       
@@ -145,8 +151,10 @@
     </author>
     
         <image>
+            content type="html">
             <link>/images/2015-10-19.jpg</link>
             <url>/images/2015-10-19.jpg</url>
+            </content>
         </image>
     
       
@@ -174,8 +182,10 @@
     </author>
     
         <image>
+            content type="html">
             <link>/images/2015-09-17.jpg</link>
             <url>/images/2015-09-17.jpg</url>
+            </content>
         </image>
     
       
@@ -201,8 +211,10 @@
     </author>
     
         <image>
+            content type="html">
             <link>/image/2015-09-11.jpg</link>
             <url>/image/2015-09-11.jpg</url>
+            </content>
         </image>
     
       
@@ -235,8 +247,10 @@
     </author>
     
         <image>
+            content type="html">
             <link>/images/2015-09-01.jpg</link>
             <url>/images/2015-09-01.jpg</url>
+            </content>
         </image>
     
       
@@ -260,8 +274,10 @@
     </author>
     
         <image>
+            content type="html">
             <link>/images/2015-08-26.jpg</link>
             <url>/images/2015-08-26.jpg</url>
+            </content>
         </image>
     
       
@@ -287,8 +303,10 @@
     </author>
     
         <image>
+            content type="html">
             <link>/images/2015-07-15.jpg</link>
             <url>/images/2015-07-15.jpg</url>
+            </content>
         </image>
     
       
@@ -315,8 +333,10 @@
     </author>
     
         <image>
+            content type="html">
             <link>/images/2015-07-06.jpg</link>
             <url>/images/2015-07-06.jpg</url>
+            </content>
         </image>
     
       

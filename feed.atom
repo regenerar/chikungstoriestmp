@@ -27,8 +27,10 @@ layout:
     </author>
     {% if post.image %}
         <image>
+            content type="html">
             <link>{{ base.url }}{{ post.image }}</link>
             <url>{{ base.url }}{{ post.image }}</url>
+            </content>
         </image>
     
       {% endif %}
