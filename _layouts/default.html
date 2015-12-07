@@ -32,29 +32,10 @@
     <div class="twelve columns offset-by-two">       
       <p class="p1"><span class="s1">Chi Kung Stories</span></p>
       <p class="p2"><span class="s1">Your life, your practice</span></p>
-      <title> {{ page.title }}</title>
-      <article>
-      {% if page.image %}
-        <p align="center"><img src="{{ base.url }}{{ page.image }}" style="border: 1px solid #ccc; padding: 5px; width: 100%"></p>
-      {% endif %}
-      {{ content }}
-      </article>
-
-      {% if page.video %}
-        <iframe src="https://player.vimeo.com/video/{{ page.video }}" width="720" height="406" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
-        <p><a href="{{ page.video-url }}">Chi kung Stories Home Practice Video</a> from <a href="https://vimeo.com/user44749248">Lourenco de Azevedo</a></p>
-
-      {% endif %}
-
-      {% if page.file %}
-        <audio src="{{ page.file }}" preload="none" controls="controls" type="audio/mp3">
-        Your browser doesn't support the <code>audio</code> element.
-        </audio>
-        <br>
-        <a href="{{ page.file }}" class="button">Download podcast</a>
-      {% endif %}
-                
+      
+      
+          {{ content }}
+              
       </div>
     </div>
 
