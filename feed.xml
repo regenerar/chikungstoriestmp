@@ -16,10 +16,10 @@ layout: null
     		<title>{{ post.title | xml_escape }}</title>
     		<description><![CDATA[<img src='{{ site.baseurl }}{{ post.image }}' width= 100% ><br><p>]]>{{ post.content | xml_escape }}</description>  
 			
-			{% if page.file %}
-				<description><![CDATA[<audio src="{{ page.file }}" preload="none" controls="controls" type="audio/mp3">
+			{% if post.file %}
+				<description><![CDATA[<audio src="{{ post.file }}" preload="none" controls="controls" type="audio/mp3">
 	  			Your browser doesn't support the <code>audio</code> element.
-				</audio><br><a href="{{ page.file }}" class="button">Download podcast</a>]]></description>
+				</audio><br><a href="{{ post.file }}" class="button">Download podcast</a>]]></description>
 			{% endif %}
 
     		<pubDate>{{ post.date | date_to_rfc822 }}</pubDate>  
