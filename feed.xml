@@ -15,6 +15,13 @@ layout: null
   		<item>  
     		<title>{{ post.title | xml_escape }}</title>
     		<description><![CDATA[<img src='{{ site.baseurl }}{{ post.image }}' width= 100% ><br><p>]]>{{ post.content | xml_escape }}</description>  
+			
+			{% if page.file %}
+				<description><![CDATA[<audio src="{{ page.file }}" preload="none" controls="controls" type="audio/mp3">
+	  			Your browser doesn't support the <code>audio</code> element.
+				</audio><br><a href="{{ page.file }}" class="button">Download podcast</a>]]></description>
+			{% endif %}
+
     		<pubDate>{{ post.date | date_to_rfc822 }}</pubDate>  
 	        <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>  
 	        <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>  
