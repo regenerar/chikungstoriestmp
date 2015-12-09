@@ -9,8 +9,9 @@ layout: default
  {% if page.image %}
 	<p align="center"><img src="{{ base.url }}{{ page.image }}" style="border: 1px solid #ccc; padding: 5px; width: 100%"></p>
  {% endif %}
-    {{ content }}
 </article>
+
+{{ content }}
 
 {% if page.video %}
 <iframe src="https://player.vimeo.com/video/{{ page.video }}" width="720" height="406" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>

@@ -3,7 +3,7 @@ title: 'Podcast #5 - Choosing a Chi Kung pratice'
 author: Lourenco de Azevedo
 layout: post
 file: "http://epodcasts.s3.amazonaws.com/chikungstories5.mp3"
-image: "/image/2015-09-11.jpg"
+image: "/images/2015-09-11.jpg"
 categories:
   - Chi Kung
   - Choosing

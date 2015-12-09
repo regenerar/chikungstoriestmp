@@ -1,8 +1,11 @@
 ---
 layout: default
 title: stories 
+image: "/images/stories.jpg"
 ---
 ## Stories
+ 
+<p align="center"><img src="{{ base.url }}{{ page.image }}" style="border: 1px solid #ccc; padding: 5px; width: 100%"></p>
 
 <section id="archive">
                     <h3>2015</h3>
@@ -18,7 +21,7 @@ title: stories
                     <ul class="past">
                         {% endif %}
                         {% endunless %}
-                    <li><a href="{{ post.url }}">{{ post.title }}</a><time>{{ post.date | date:" - %d %B" }}</time></li>
+                    <li><a href="{{ post.url }}">{{ post.title }}</a><time>{{ post.date | date:" - %d %b" }}</time></li>
                     {% endfor %}
                     </ul>
 </section> 
