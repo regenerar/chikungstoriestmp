@@ -7,7 +7,7 @@ layout: default
 
 <article> 
  {% if page.image %}
-	<p align="center"><img src="{{ base.url }}{{ page.image }}" style="border: 1px solid #ccc; padding: 5px; width: 100%"></p>
+	<p align="center"><img src="{{ base.url }}{{ page.image }}" style="border-radius: 15px; width: 100%"></p>
  {% endif %}
 </article>
 
@@ -28,7 +28,22 @@ layout: default
 	<a href="{{ page.file }}" class="button">Download podcast</a>
 {% endif %}
 
+<br>
+<br>
 
+{% if page.previous %}
+ <p><a id="left" href="{{ page.previous.url }}" title="{{ post.previous.title }}">&larr; Previous post: {{ page.previous.title }}</a></p>
+
+ {% endif %}
+                
+ {% if page.next %}
+    <p><a id="right" href="{{ page.next.url }}" title="{{ page.next.title }}">&rarr; Next post: {{ page.next.title }}</a></p>
+
+{% endif %}
+
+
+              
+    
 
  
 		  

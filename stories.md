@@ -5,7 +5,7 @@ image: "/images/stories.jpg"
 ---
 ## Stories
  
-<p align="center"><img src="{{ base.url }}{{ page.image }}" style="border: 1px solid #ccc; padding: 5px; width: 100%"></p>
+<p align="center"><img src="{{ base.url }}{{ page.image }}" style="border-radius: 15px; width: 100%"></p>
 
 <section id="archive">
                     <h3>2015</h3>

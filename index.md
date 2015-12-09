@@ -8,7 +8,7 @@ title: Chi Kung Stories
       	<h2>{{post.title}}</h2>
 		<article>
       {% if post.image %}
-        <p align="center"><img src="{{ base.url }}{{ post.image }}" style="border: 1px solid #ccc; padding: 5px; width: 100%"></p>
+        <p align="center"><img src="{{ base.url }}{{ post.image }}" style="border-radius: 15px; width: 100%"></p>
       {% endif %}
 
       	{{ post.content }}
