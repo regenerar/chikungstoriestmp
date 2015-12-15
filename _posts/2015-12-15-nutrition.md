@@ -1,9 +1,9 @@
 ---
-title: "Podcast #10 - Nourishment"
+title: "Podcast #11 - Nourishment"
 author: Lourenco de Azevedo
 layout: post
 file: "http://epodcasts.s3.amazonaws.com/chikungstories11.mp3"
-image: "/images/2015-12-07.jpg"
+image: "/images/2015-12-15.jpg"
 categories:
   - Chi Kung
 ---
