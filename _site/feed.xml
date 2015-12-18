@@ -5,8 +5,8 @@
 		<description>Ideas and insights about daily practice</description>  
 		<link>http://chikungstories.com/</link>  
 		<atom:link href="http://chikungstories.com/feed.xml" rel="self" type="application/rss+xml"/>  
-		<pubDate>Fri, 18 Dec 2015 10:28:25 +0000</pubDate>  
-		<lastBuildDate>Fri, 18 Dec 2015 10:28:25 +0000</lastBuildDate>  
+		<pubDate>Fri, 18 Dec 2015 10:29:52 +0000</pubDate>  
+		<lastBuildDate>Fri, 18 Dec 2015 10:29:52 +0000</lastBuildDate>  
 		<generator>Jekyll v2.2.0</generator>  
 		  
   		<item>  
@@ -19,10 +19,12 @@
 
 &lt;p&gt;&lt;strong&gt;Recipe for dry cough porridge&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;2/3 Rice flakes
-1/3 Millet flakes
-1 sliced pear - with or without skin
-pinch of salt&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;2/3 Rice flakes&lt;/li&gt;
+  &lt;li&gt;1/3 Millet flakes&lt;/li&gt;
+  &lt;li&gt;1 sliced pear - with or without skin&lt;/li&gt;
+  &lt;li&gt;pinch of salt&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;Cook in 3 times the amount of water for 20 minutes.&lt;/p&gt;
 
